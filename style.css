@@ -1,0 +1,26 @@
+/*Libre Carlson Text font*/
+@import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&display=swap');
+
+body {
+	font-family: "Libre", sans-serif;
+}
+
+/*Navigation */
+
+nav ul {
+	list-style: none;
+	padding: 0;
+	margin: 2rem;
+	display: flex;
+}
+nav ul li {
+
+	margin-left: 1rem;
+}
+
+nav ul li: first-child {
+	margin-left: 0;
+	margin-right: auto;
+}
+
+/* Hero */
