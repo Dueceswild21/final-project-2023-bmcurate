@@ -7,9 +7,9 @@ body {
 
 /*Navigation */
 
-nav {
-	width: 100vw;
-	position: absolute;
+nav{
+   width: 100vw;
+   position: absolute;
 }
 
 nav ul {
@@ -43,3 +43,7 @@ section.hero {
 	background-position: center;
 	padding-left: 3rem;
 }
+h1 {
+   font-size: 3rem;
+   color:#ffff;
+   max-width: 20rem;
