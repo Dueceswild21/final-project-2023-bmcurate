@@ -5,9 +5,26 @@ body {
 	font-family: "Libre", sans-serif;
 }
 
+/*Global */
+
+.btn {
+	width: max-content;
+	font-size: 1.3rem;
+	font-weight: bold;
+	padding: 1rem 2 rem;
+	background: #4ECDC4;
+	color: #000;
+	text-transform: uppercase;
+	text-decoration: none;
+	border-radius: 1rem;
+}
+
+.logo{
+
+
 /*Navigation */
 
-nav{
+nav {
    width: 100vw;
    position: absolute;
 }
@@ -19,6 +36,8 @@ nav ul {
 	display: flex;
 }
 
+
+
 nav ul li {
 	margin-left: 1rem;
 }
@@ -26,6 +45,17 @@ nav ul li {
 nav ul li:first-child {
 	margin-left: 0;
 	margin-right: auto;
+}
+
+nav ul li a {
+	 color: #fff;
+	 text-decoration: none;
+}
+
+@media screen and (max-width: 600px) {
+   nav ul {
+   	    flex-direction; column;
+   	}
 }
 
 /* Hero */
@@ -43,6 +73,13 @@ section.hero {
 	background-position: center;
 	padding-left: 3rem;
 }
+
+@media screen and (max-width: 600px) {
+   section.hero { 
+   	   height: 30rem;
+   	   padding-left: 1rem;
+}
+
 h1 {
    font-size: 3rem;
    color:#ffff;
