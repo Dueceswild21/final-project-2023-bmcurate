@@ -1,50 +1,40 @@
 /*Libre Carlson Text font*/
 @import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&display=swap');
 
-body {
+   body{
 	font-family: "Libre", sans-serif;
+
 }
 
 /*Global */
 
-.btn {
-	width: max-content;
-	font-size: 1.3rem;
-	font-weight: bold;
-	padding: 1rem 2 rem;
-	background: #4ECDC4;
-	color: #000;
-	text-transform: uppercase;
-	text-decoration: none;
-	border-radius: 1rem;
+img {
+	max-width:100%;
 }
-
-.logo{
-
-
-/*Navigation */
+    
+/* Navigation */
 
 nav {
-   width: 100vw;
-   position: absolute;
+    width: 100vw;
+    position: absolute;
 }
 
 nav ul {
 	list-style: none;
-	padding: 0;
+	padding: 2;
 	margin: 2rem;
 	display: flex;
 }
 
-
-
 nav ul li {
-	margin-left: 1rem;
+	margin-left: 25rem;
+	display: flex;
 }
 
 nav ul li:first-child {
 	margin-left: 0;
 	margin-right: auto;
+
 }
 
 nav ul li a {
@@ -56,6 +46,10 @@ nav ul li a {
    nav ul {
    	    flex-direction; column;
    	}
+nav ul li{
+	margin-left: 2;
+    }
+
 }
 
 /* Hero */
@@ -63,15 +57,17 @@ nav ul li a {
 section.hero {
 	width: 100vw;
 	height:100vh;
-	background: #EF4F01;
-	color: #B41519;
 	display:flex;
 	flex-direction: column;
 	justify-content: center;
-	background: url("../images/hero.png");
-	background-size: cover;
-	background-position: center;
 	padding-left: 3rem;
+	padding-bottom: 20rem;
+}
+
+section.hero h1 {
+	font-size: 3rem;
+	color: #ffff;
+	max-width: 20rem;
 }
 
 @media screen and (max-width: 600px) {
@@ -81,6 +77,8 @@ section.hero {
 }
 
 h1 {
-   font-size: 3rem;
+   font-size: 64px;
    color:#ffff;
-   max-width: 20rem;
+   max-width: 500px;
+
+}
